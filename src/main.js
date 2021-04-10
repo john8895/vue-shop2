@@ -3,6 +3,8 @@ import App from './App.vue'
 import axios from 'axios'
 import VueAxios from 'vue-axios'
 import router from './router'
+import 'bootstrap';
+import 'jquery'
 
 Vue.config.productionTip = false
 Vue.use(VueAxios, axios)
